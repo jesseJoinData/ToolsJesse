@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E0EmnTpUencvwAHpa1FvK534YQDS0X0NUXx9j/CVgFvmVQe0sQHP58HkpM61ifV0b2yI4ylbk9Kr7Db74D9fSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jesse\\OneDrive\\Documents\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jesse\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
