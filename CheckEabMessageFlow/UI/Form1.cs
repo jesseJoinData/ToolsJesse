@@ -9,7 +9,7 @@ namespace CheckEabMessageFlow;
 
 public partial class Form1 : Form
 {
-    private string filePath = "C:\\Users\\jesse\\OneDrive\\Documents\\ToolsJesse\\CheckEabMessageFlow\\companies\\companies-2023-11-28-10-34-13.csv";
+    private string filePath = "C://Users//jesse//Documents//Tools//ToolsJesse//CheckEabMessageFlow//companies//companies-2023-11-28-10-34-13.csv";
     private string clientID = "source-registry";
     private string clientSecret = "4029e2b9-d74b-4147-9086-df606c817fbf";
     private string authUrl = "https://production.join-data.net/auth/realms/datahub/protocol/openid-connect/token";

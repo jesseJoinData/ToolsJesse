@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesse\\OneDrive\\Documents\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj": {}
+    "C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesse\\OneDrive\\Documents\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj": {
+    "C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesse\\OneDrive\\Documents\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj",
+        "projectUniqueName": "C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj",
         "projectName": "CheckEabMessageFlow",
-        "projectPath": "C:\\Users\\jesse\\OneDrive\\Documents\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj",
+        "projectPath": "C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\CheckEabMessageFlow\\CheckEabMessageFlow.csproj",
         "packagesPath": "C:\\Users\\jesse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesse\\OneDrive\\Documents\\ToolsJesse\\CheckEabMessageFlow\\obj\\",
+        "outputPath": "C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\CheckEabMessageFlow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesse\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
