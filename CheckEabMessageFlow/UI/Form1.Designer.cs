@@ -85,7 +85,7 @@ partial class Form1
             textBoxCreator.CreateTextBox(endDateTime, new Point((Left + 10 + 200), (Top + (30 + i * 30))), new Size(200, 50));
             i++;
         }
-
+        //butiful
         buttonCreator.CreateButton("Close Other Forms", new Point((Width / 4) - 100, (Height / 6) * 3 - 40), new Size(200, 40), new EventHandler(CloseOtherFormsClicked));
         buttonCreator.CreateButton("Check", new Point((Width / 2) - 100, (Height / 6) * 5 - 40), new Size(200, 40), new EventHandler(Checkclicked));
     }
