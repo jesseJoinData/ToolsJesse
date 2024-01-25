@@ -86,9 +86,14 @@ partial class Form1
             i++;
         }
 
+        buttonCreator.CreateButton("Close Other Forms", new Point((Width / 4) - 100, (Height / 6) * 3 - 40), new Size(200, 40), new EventHandler(CloseOtherFormsClicked));
         buttonCreator.CreateButton("Check", new Point((Width / 2) - 100, (Height / 6) * 5 - 40), new Size(200, 40), new EventHandler(Checkclicked));
     }
 
+    private void CloseOtherFormsClicked(object sender, EventArgs e)
+    {
+        CloseAllOtherForms();
+    }
     private void Checkclicked(object sender, EventArgs e)
     {
         // Go get the info using these parameters function call getinfo(param1, param2, param3)
@@ -146,4 +151,15 @@ partial class Form1
         }
 
     }
+    private void CloseAllOtherForms()
+    {
+        foreach (Form frm in Application.OpenForms.Cast<Form>().ToList())
+        {
+            if (frm != this) // this ensures the current form stays open
+            {
+                frm.Close();
+            }
+        }
+    }
 }
+
