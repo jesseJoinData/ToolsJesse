@@ -26,5 +26,6 @@
 *.pidb
 *.svclog
 *.scc
+*.csv
 
 checkubnscript\*.csv

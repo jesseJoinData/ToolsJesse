@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckEabMessageFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38ba6d811e81acdc9d9c58385cecb8358680e731")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f49e6df4b69fbc160a28a2e89d53b733ad27f6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckEabMessageFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckEabMessageFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
