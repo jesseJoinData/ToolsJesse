@@ -27,5 +27,7 @@
 *.svclog
 *.scc
 *.csv
+*.json
 
 checkubnscript\*.csv
+Responses
