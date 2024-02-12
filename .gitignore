@@ -28,6 +28,8 @@
 *.scc
 *.csv
 *.json
+*.dll
+*.exe
 
 checkubnscript\*.csv
 Responses
