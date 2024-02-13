@@ -5,7 +5,7 @@ import csv
 customer_ids_batch1 = set()
 customer_ids_batch2 = set()
 customer_ids_batch3 = set()
-with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\Batches.csv', 'r') as csvfile:
+with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\Batch 1.csv', 'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     for row in csvreader:
         customer_ids_batch1.add(row[0])  # Assuming the IDs are in the first column
@@ -32,7 +32,7 @@ for state in data["customerStates"]:
 
 # Step 4: Write the filtered data to a new CSV file using a semicolon delimiter, excluding 'stateDetails'
 if filtered_data_batch1:
-    with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\filtered_data_batch1.csv', 'w', newline='') as csvfile:
+    with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\filtered_data_batch1_2.csv', 'w', newline='') as csvfile:
         # Exclude 'stateDetails' from field names
         fieldnames = [key for key in filtered_data_batch1[0].keys() if key != 'stateDetails']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
@@ -107,7 +107,7 @@ list_not_in_companyMappingBatch1 += [None] * (max_length - len(list_not_in_compa
 list_not_in_companyMappingBatch2 += [None] * (max_length - len(list_not_in_companyMappingBatch2))
 list_not_in_companyMappingBatch3 += [None] * (max_length - len(list_not_in_companyMappingBatch3))
 
-with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\not_in_companyMapping.csv', mode='w', newline='') as file:
+with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\not_in_companyMapping_2.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         # Writing a header (optional)
         writer.writerow(['Batch1', 'Batch2', 'Batch3'])
