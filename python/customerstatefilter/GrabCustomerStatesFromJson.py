@@ -5,7 +5,7 @@ import csv
 customer_ids_batch1 = set()
 customer_ids_batch2 = set()
 customer_ids_batch3 = set()
-with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\Batches.csv', 'r') as csvfile:
+with open('C:\\Users\\jesse\\Documents\\Tools\\ToolsJesse\\python\\customerstatefilter\\Batches2.csv', 'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     for row in csvreader:
         customer_ids_batch1.add(row[0])  # Assuming the IDs are in the first column
